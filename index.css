@@ -1,0 +1,19 @@
+.click{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  color: white;
+  background: #02020A;
+  border: none;
+  outline: none;
+}
+.ripple{
+  position: absolute;
+  background: rgba(255,255,255,0.3);
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  top: 0px;
+  left: 0px;
+}
